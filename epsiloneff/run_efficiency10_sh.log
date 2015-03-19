@@ -1,0 +1,30 @@
+~~~~~, tencent10, 51640620, ~~~~~
+0.0000316227
+initing ... 
+Rdsextr Starting ...
+data:tencent10, T:5, D:50, R:3312272640, E:0.000032
+displayed epsilon 32 , network file [data/tencent10.graph] , map file [data/tencent10.dict]
+result file stored in :
+::path: [result/tencent10_5_50_32.pathsim]
+::structure: [result/tencent10_5_50_32.pathvec]
+N: 51640620, M: 1000000000, R=3312272640
+graph space allocated
+Time of loading edges = 596304.273655 ms
+sample size = 3312272640
+thread size = 1
+[weight] starting...
+[weight] stopped, time cost : 31912.491 ms [OK] 
+[rpath gene] starting...
+[rpath gene] stopped, time cost : 33148513.729 ms [OK] 
+[pathids] starting...
+[pathids] stopped, time cost : 14787907.539 ms [OK] 
+Time of generating random paths = 47968335.522166 ms
+[clean node in paths] starting...
+[clean node in paths] stopped, time cost : 78352634.712 ms [OK] 
+[sim cal] starting...
+[sim cal] stopped, time cost : 211018888.003 ms [OK] 
+Time of calcualating pathsim = 289371522.897562 ms
+[save result file] starting...
+[save result file] time cost 18048345.733787 ms
+
+450G memory
